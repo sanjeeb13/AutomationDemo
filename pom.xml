@@ -168,7 +168,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.11.0</version>
+            <version>4.21.0</version>
         </dependency>
 
         <!-- TestNG (UPDATED) -->
@@ -205,6 +205,13 @@
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.9</version>
         </dependency>
+        
+	    <dependency>
+		    <groupId>org.uncommons</groupId>
+		    <artifactId>reportng</artifactId>
+		    <version>1.1.4</version>
+		    <scope>test</scope>
+		</dependency>
 
     </dependencies>
 

@@ -5,6 +5,8 @@
     <classes>
       <class name="learingAutomation.LunchGmail">
         <methods>
+          <include name="takeScreenshot"/>
+          <include name="verifytitle"/>
           <include name="openGoogle"/>
         </methods>
       </class> <!-- learingAutomation.LunchGmail -->
